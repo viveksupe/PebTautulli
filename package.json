@@ -1,0 +1,69 @@
+{
+    "author": "Tautulli App",
+    "dependencies": {
+        "@rebble/clay": "^1.0.8"
+    },
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "tautulli-pebble",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Tautulli",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TautulliHost",
+            "TautulliPort",
+            "TautulliPath",
+            "TautulliApiKey",
+            "CMD_TYPE",
+            "CMD_PARAM",
+            "DATA_COUNT",
+            "DATA_INDEX",
+            "DATA_TITLE",
+            "DATA_SUBTITLE",
+            "DATA_DETAIL",
+            "DATA_RATING_KEY",
+            "DATA_ERROR",
+            "DATA_HAS_MORE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/app_icon.png",
+                    "menuIcon": true,
+                    "name": "APP_ICON",
+                    "type": "png"
+                },
+                {
+                    "file": "images/icon_now_playing.png",
+                    "name": "ICON_NOW_PLAYING",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon_history.png",
+                    "name": "ICON_HISTORY",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon_recently_added.png",
+                    "name": "ICON_RECENTLY_ADDED",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "flint"
+        ],
+        "uuid": "3a4c63f7-3787-4439-95dd-761c30c0b023",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.1"
+}
